@@ -7,9 +7,9 @@ import { getFunctions } from "firebase/functions";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDeruK07TCWFPdPDO6RfgpPiq2NLWORViA",
-  authDomain: "yt-clone-a74e4.firebaseapp.com",
-  projectId: "yt-clone-a74e4",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
 
   appId: "1:335650862418:web:1251f95f89b72c6fd9f68b"
 };
